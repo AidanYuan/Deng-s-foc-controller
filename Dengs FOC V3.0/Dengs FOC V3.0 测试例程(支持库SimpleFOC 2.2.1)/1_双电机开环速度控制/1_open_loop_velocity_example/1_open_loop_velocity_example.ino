@@ -28,7 +28,7 @@ void setup() {
   motor.voltage_limit = 3;   // [V]
   motor.velocity_limit = 40; // [rad/s]
   
-  driver1.voltage_power_supply = 16.8;
+  driver1.voltage_power_supply = 5;
   driver1.init();
   motor1.linkDriver(&driver1);
   motor1.voltage_limit = 3;   // [V]
